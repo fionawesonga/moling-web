@@ -1,0 +1,118 @@
+.body{
+    padding: 0;
+}  
+.navigationbar{  display: flex;
+    /* justify-content: space-between;*/
+
+}
+.company-description{
+    background-color: rgb(45,44,43);
+    color: rgb(173,162,137);
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    align-items: center;
+    width: 100%;
+    margin:  0 auto;
+}
+.company-description i{
+    background-color: rgb(240,178,43);
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    color: white;
+}
+.company-description a{
+    color: rgb(250,255,255);
+}
+.contact-info{
+    display: flex;
+    gap: 60%;
+    background-color: rgb(255,255,255);
+    margin-left: 20%;
+}
+.email-info{
+    line-height: 7px;
+}
+
+.email-info span {
+    color: rgb(45,44,43);
+    font-size: large;
+    font-weight: 500;
+
+} 
+.email-info p{
+    color: rgb(124,122,120);
+}
+.email-info i{
+    color: rgb(81,123,192);
+    margin-left: 120%;
+    border-radius: 50px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 10%;
+
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.brand-voice{
+    display: flex;
+    justify-content: space-between;
+    /* filter: brightness(0.5); */
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+}
+.backgroundimage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.services-section{
+    display: flex;
+    justify-content: space-between;
+}
+.client-section{
+    display: flex;
+    justify-content: space-between;
+}
+.brand-portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form{
+  display:flex;
+  justify-content: space-between;
+}
+.testimonials{
+    display: flex;
+    justify-content: space-between;
+}
+.subscription-section{
+    display: flex;
+}
+.articles-section{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
