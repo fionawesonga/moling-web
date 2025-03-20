@@ -1,118 +1,217 @@
-.body{
+.body {
     padding: 0;
-}  
-.navigationbar{  display: flex;
-    /* justify-content: space-between;*/
-
 }
-.company-description{
-    background-color: rgb(45,44,43);
-    color: rgb(173,162,137);
+
+.company-description {
+    background-color: rgb(45, 44, 43);
+    color: rgb(173, 162, 137);
     display: flex;
     justify-content: center;
     height: 32px;
     align-items: center;
     width: 100%;
-    margin:  0 auto;
+    margin-top: 0;
 }
-.company-description i{
-    background-color: rgb(240,178,43);
+
+.company-description i {
+    background-color: rgb(240, 178, 43);
     border-radius: 20px;
     width: 15px;
     height: 15px;
     color: white;
 }
-.company-description a{
-    color: rgb(250,255,255);
+
+.company-description a {
+    color: rgb(250, 255, 255);
 }
-.contact-info{
+
+.contact-info {
     display: flex;
     gap: 60%;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
     margin-left: 20%;
 }
-.email-info{
+
+.email-info,
+.line-info {
     line-height: 7px;
 }
 
-.email-info span {
-    color: rgb(45,44,43);
+.email-info span,
+.line-info span {
+    color: rgb(45, 44, 43);
     font-size: large;
     font-weight: 500;
 
-} 
-.email-info p{
-    color: rgb(124,122,120);
 }
-.email-info i{
-    color: rgb(81,123,192);
+
+.email-info p,
+.line-info span {
+    color: rgb(124, 122, 120);
+}
+
+.email-info i {
+    color: rgb(81, 123, 192);
     margin-left: 120%;
     border-radius: 50px;
 }
-.nav-menu{
+
+.line-info i {
+    color: rgb(81, 123, 192);
+
+}
+
+.nav-menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
     list-style: none;
     text-decoration: none;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     margin-left: 10%;
+    padding: 0px;
+
 
 }
+
 .nav-menu li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    font-size: small;
 }
-.brand-voice{
-    display: flex;
+
+.brand-voice {
     justify-content: space-between;
-    /* filter: brightness(0.5); */
+    color: rgb(255, 255, 255);
+    filter: brightness(0.5);
     position: relative;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    margin-top: 20px;
 
 }
-.backgroundimage{
+
+.backgroundimage {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    position: relative;
+    height: 700px;
 }
-.about{
+
+.voice-content {
+    position: absolute;
+    display: flex;
+    margin-left: 40%;
+    top: 30%;
+}
+
+.left-caret {
+    border: 20px;
+    border-color: white;
+    background-color: rgb(116, 114, 110);
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border-color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+.about {
     display: flex;
     justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-bottom: 10%;
 }
-.logos{
+
+.about-title p {
+    color: rgb(240, 178, 43);
+    text-decoration: underline;
+}
+
+.about-title h1 {
+    font-size: 50px;
+    margin-bottom: 20%;
+}
+
+.about-description {
+    margin-right: 25%;
+}
+
+/* .shape-container{
+    position: absolute;
+    border: 10px;
+    border-color:blue;
+    height: 20%;
+    width: 20%;
+    background-color: white;
+    bottom: -200px; */
+.about-origin {
+    margin-top: 60px;
+}
+
+.about-origin span {
+    color: rgb(240, 178, 43);
+    text-decoration: underline;
+
+}
+
+.about-origin h1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.about-paragraph {
+    margin-top: -100px;
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 10%;
 }
-.services-section{
-    display: flex;
-    justify-content: space-between;
-}
-.client-section{
-    display: flex;
-    justify-content: space-between;
-}
-.brand-portfolio{
+
+.services-section {
     display: flex;
     justify-content: space-between;
 }
 
-.contact-form{
-  display:flex;
-  justify-content: space-between;
-}
-.testimonials{
+.client-section {
     display: flex;
     justify-content: space-between;
 }
-.subscription-section{
+
+.brand-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscription-section {
     display: flex;
 }
-.articles-section{
+
+.articles-section {
     display: flex;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
 }
