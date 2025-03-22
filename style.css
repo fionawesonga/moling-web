@@ -1,5 +1,6 @@
 .body {
     padding: 0;
+    background-color: rgb(256,256,256);
 }
 
 .company-description {
@@ -52,7 +53,7 @@
 
 .email-info i {
     color: rgb(81, 123, 192);
-    margin-left: 120%;
+    margin-left: 0%;
     border-radius: 50px;
 }
 
@@ -63,22 +64,23 @@
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+     gap: 75px;
     list-style: none;
     text-decoration: none;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    margin-left: 10%;
-    padding: 0px;
+    margin-top: 90px;
+    justify-content: center;
 
+}
+.nav-menu  li a span{
+    color: rgb(240, 178, 43);
 
 }
 
 .nav-menu li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: small;
+    font-size: medium;
+    color: rgb(124,122,120);
 }
 
 .brand-voice {
@@ -96,7 +98,7 @@
     object-fit: cover;
     width: 100%;
     position: relative;
-    height: 700px;
+    height: 790px;
 }
 
 .voice-content {
@@ -177,22 +179,169 @@
     gap: 10%;
     margin-bottom: 10%;
 }
+    
 
-.services-section {
+.service-heading{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.service-heading p{
+    color: rgb(240, 178, 43);
+    text-decoration: underline;
+}
+.service-heading h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.services-section{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 2%;
+}
+.services{
+    background-color: rgb(255, 255, 255);
+     height: 520px;
+     width: 290px;
+     justify-items: center;
+     color: rgb(147,131,121);
+}
+.services-storage{
+    height: 520px;
+    width: 290px;
+    background-color: rgb(70,113,192);
+    justify-items: center;
+    color: white;
+
+}
+.services span{
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+}
+.services a{
+    text-decoration: none;
+    color: rgb(240, 178, 43);
+}
+.services-storage span{
+    color: white;
+    font-size:x-large ;
+}
+.services-storage a{
+    color: white;
+    text-decoration: none;
+}
+.services-storage hr{
+    width: 70%;
+}
+.client-section{
+    display: flex;
+    gap: 100px;
+    margin-top: 90px;
 }
 
-.client-section {
-    display: flex;
-    justify-content: space-between;
+.client-section h1{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 350px;
+    
+}
+.client-section p{
+margin-top: 30px;
+margin-left: 40px;
+}
+.client-section img{
+    width: 200px;
+    height: 130px;
+    position: relative;
+
+}
+.play-btn{
+    background-color: rgb(240,178,43);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 2%; 
 }
 
 .brand-portfolio {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 12%;
+    gap: 8%;
 }
+.left-image img{
+    background-color: rgb(70,113,192);
+    padding: 0px 50px 180px 0px;
+    position: relative;
+}
+.left-text{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -39%;
+    background-color:white;
+    height: 25%;
+    width: 20%;
+    margin-left: 55px;
+    align-items: center;
+    
+}
+.left-text p{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.left-text a{
+    color:rgb(240,178,43) ;
+    margin-left: 60px;
 
+}
+.enquiries{
+    position: absolute;
+    color: white;
+    margin-top: -8%;
+    margin-left: 6%;
+    font-size: larger;
+}
+.advert-intro{
+    color:rgb(240,178,43) ;
+    text-decoration: underline;
+}
+.right-text h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.advert{
+    padding: 20px;
+}
+.advert i{
+    background-color: rgb(240, 178, 43);
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    color: white;
+
+}
+.reminder{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-bottom: 8%;
+}
+.reminder a{
+    color:rgb(240, 178, 43) ;
+}
+.video-section{
+    background-color: blueviolet;
+    justify-content: center;
+    margin-left: 30%;
+
+}
 .contact-form {
     display: flex;
     justify-content: space-between;
